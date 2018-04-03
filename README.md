@@ -46,3 +46,10 @@ validationの精度を見ていくと、最良値で、82%程度で、これは�
 
 基本的な方針としてはこれで良さそうです。  
 
+## xgboostにはかなわない
+92%程度の正解率です。xgboostは。
+
+https://www.kaggle.com/tanlikesmath/titanic-xgboost　　
+
+ゴリゴリにチューンすればなにかDeepでもあるかもですが、そこまではやらないこととします。  
+
