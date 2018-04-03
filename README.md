@@ -36,4 +36,13 @@ x = Dense(1, activation='sigmoid')(x)
 ```
 
 ## 学習
-trainをさらに分割してvalidationに用いてますが、kaggleはtestに正解が付かないので、しょうがないです  
+以下のコマンドで学習できます  
+```console
+$ python3 20-train.py --train
+```
+trainをさらに分割してvalidationに用いてますが、kaggleはtestに正解が付かないので、しょうがないです  
+
+validationの精度を見ていくと、最良値で、82%程度で、これは、別の[KaggleのTitanicのTFでの実装](https://www.kaggle.com/linxinzhe/tensorflow-deep-learning-to-solve-titanic)に迫るものです。  
+
+基本的な方針としてはこれで良さそうです。  
+
